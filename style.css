@@ -137,7 +137,7 @@ nav ul .publicar_nav a
 {
     background: white;
     border-bottom: 2.5px solid #22BCE0;
-    margin: 0 1em 0 0;
+    margin-bottom: 3em;
     min-height: 128px;
     position: relative;
 }
@@ -149,13 +149,16 @@ nav ul .publicar_nav a
 
 #contenido .item .footer_item
 {
-    margin: 1em 1em 0 0;
-    text-align: right
+    margin: 1em 0.5em 0.5em 0;
+    text-align: right;
+    
+    
 }
 
 #contenido .item .footer_item .fecha_item
 {
     color: #AAA;
+    float: right;
 }
 #contenido .item .footer_item .tag_item
 {
@@ -164,14 +167,15 @@ nav ul .publicar_nav a
     color: white;
     display:inline-block;
     float: left;
+    padding: 0.2em 0.5em;
     text-decoration: none;
-    padding: 0.1em 0.2em;
     
 }
 
 #contenido .item .imagen_item
 {
     float: left;
+    margin:0 1em 0 0;
 }
 
 #contenido .item .imagen_item img
@@ -183,6 +187,7 @@ nav ul .publicar_nav a
 {
     font-size: 1.2em;
     font-style: italic;
+    padding: 1em 1em 0 0;
 }
 
 #contenido .item .titulo_item a
@@ -193,16 +198,17 @@ nav ul .publicar_nav a
 
 #contenido .item .votacion
 {
-    left 0;
+    background: white;
+    border-radius: 0 0 0.5em 0.5em;
+    left: 5%;
+    margin-top: 3px;
+    padding: 0.5em 1em;
     position: absolute;
-    bottom: 0;
+    top: 100%;
+    width: 90%;
 }
 
-#contenido .item .votacion .comentarios_item
-{
-    float: right;
-}
-
+#contenido .item .votacion .comentarios_item,
 #contenido .item .votacion .guardar_item
 {
     float: right;

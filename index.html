@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Mi primer proyecto de HTML5 y CSS3"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<title>Puls 2014 - Europa</title>  
+    <link href='http://fonts.googleapis.com/css?                 family=Open+Sans:700,400' rel='stylesheet'                   type='text/css'>
     <link rel="stylesheet" href="normalize.css"/>
     <link rel="stylesheet" href="style.css"/>
+    <script src="js/prefixfree.min.js"></script>
 </head>
 <body>
 	<header>
@@ -27,17 +30,24 @@
 		<li><a href="#">CSS3</a></li>
 		<li><a href="#">Django</a></li>
 		<li class="publicar_nav">
-			<a href="#">Publicar</a>
+			<a href="#" class="icon-lapiz">Publicar</a>
 		</li>
 		</ul>
 	</nav>
+    <aside>
+        <video width="320" height="240" controls autoplay>
+            <source src="lecturas.mp4" type="video/mp4">
+            <source src="lecturas.ogg" type="video/ogg">
+          <!-- Actualiza tu navegador -->
+        </video>
+    </aside>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="imagen.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Título del artículo</a>
+				<a href="#">Usa módulos del lado cliente con Browserify</a>
 			</h2>
 			<div class="autor_item">
 				por <a href="#">Carlos Jiménez</a>
@@ -49,11 +59,86 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a class="up_votacion" href="#">U</a>
-				660
-				<a class="down_votacion" href="#">D</a>
-				<a class="comentarios_item" href="#">455</a>
-				<a class="guardar_item" href="#">X</a>
+				<a class="up_votacion icon-f-arriba" href="#"></a>
+                152
+				<a class="down_votacion icon-f-abajo" href="#"></a>
+				<a class="comentarios_item" href="#">5</a>
+				<a class="guardar_item icon-estrella" href="#"></a>
+			</div>
+		</article>
+        
+        <article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg"/>
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Cómo usar la etiqueta template en HTML5</a>
+			</h2>
+			<div class="autor_item">
+				por <a href="#">Carlos Jiménez</a>
+			</div>
+			<div class="footer_item">
+				<a class="tag_item" href="#">Pony</a>
+				<span class="fecha_item">
+					hace <strong>5</strong> min
+				</span>
+			</div>
+			<div class="votacion">
+				<a class="up_votacion icon-f-arriba" href="#"></a>
+                435
+				<a class="down_votacion icon-f-abajo" href="#"></a>
+				<a class="comentarios_item" href="#">5</a>
+				<a class="guardar_item icon-estrella" href="#"></a>
+			</div>
+		</article>
+        
+        <article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg"/>
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Introducción a Android Wear</a>
+			</h2>
+			<div class="autor_item">
+				por <a href="#">Carlos Jiménez</a>
+			</div>
+			<div class="footer_item">
+				<a class="tag_item" href="#">Pony</a>
+				<span class="fecha_item">
+					hace <strong>5</strong> min
+				</span>
+			</div>
+			<div class="votacion">
+				<a class="up_votacion icon-f-arriba" href="#"></a>
+                626
+				<a class="down_votacion icon-f-abajo" href="#"></a>
+				<a class="comentarios_item" href="#">5</a>
+				<a class="guardar_item icon-estrella" href="#"></a>
+			</div>
+		</article>
+        
+        <article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg"/>
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Automatización de tareas de frontend usando Gulp.js</a>
+			</h2>
+			<div class="autor_item">
+				por <a href="#">Carlos Jiménez</a>
+			</div>
+			<div class="footer_item">
+				<a class="tag_item" href="#">Pony</a>
+				<span class="fecha_item">
+					hace <strong>5</strong> min
+				</span>
+			</div>
+			<div class="votacion">
+				<a class="up_votacion icon-f-arriba" href="#"></a>
+                626
+				<a class="down_votacion icon-f-abajo" href="#"></a>
+				<a class="comentarios_item" href="#">5</a>
+				<a class="guardar_item icon-estrella" href="#"></a>
 			</div>
 		</article>
 	</section>
